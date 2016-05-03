@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>364</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>300</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMineSweeper">
+    <property name="title">
+     <string>Игра</string>
+    </property>
+    <widget class="QMenu" name="newGame">
+     <property name="title">
+      <string>Новая игра</string>
+     </property>
+     <addaction name="new5x5"/>
+     <addaction name="new7x7"/>
+     <addaction name="new9x9"/>
+     <addaction name="new14x14"/>
+     <addaction name="new20x20"/>
+     <addaction name="new40x40"/>
+     <addaction name="new50x50"/>
+     <addaction name="new80x80"/>
+     <addaction name="new100x100"/>
+    </widget>
+    <addaction name="newGame"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Справка</string>
+    </property>
+    <addaction name="about"/>
+    <addaction name="aboutQt"/>
+   </widget>
+   <addaction name="menuMineSweeper"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="new5x5">
+   <property name="text">
+    <string>5x5</string>
+   </property>
+  </action>
+  <action name="new7x7">
+   <property name="text">
+    <string>7x7</string>
+   </property>
+  </action>
+  <action name="new9x9">
+   <property name="text">
+    <string>9x9</string>
+   </property>
+  </action>
+  <action name="new14x14">
+   <property name="text">
+    <string>14x14</string>
+   </property>
+  </action>
+  <action name="newCustom">
+   <property name="text">
+    <string>Свои настройки</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Вызов справки</string>
+   </property>
+  </action>
+  <action name="about">
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="aboutQt">
+   <property name="text">
+    <string>О Qt</string>
+   </property>
+  </action>
+  <action name="new20x20">
+   <property name="text">
+    <string>20x20</string>
+   </property>
+  </action>
+  <action name="new40x40">
+   <property name="text">
+    <string>40x40</string>
+   </property>
+  </action>
+  <action name="new50x50">
+   <property name="text">
+    <string>50x50</string>
+   </property>
+  </action>
+  <action name="new80x80">
+   <property name="text">
+    <string>80x80</string>
+   </property>
+  </action>
+  <action name="new100x100">
+   <property name="text">
+    <string>100x100</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
